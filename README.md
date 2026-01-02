@@ -4,7 +4,7 @@ A modern, professional website for ZeroGap - AI, Software, and Data solutions co
 
 ![ZeroGap Website Preview](preview.png)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ZeroGap/
@@ -17,14 +17,14 @@ ZeroGap/
 └── ZeroGap Website.docx    # Original requirements
 ```
 
-## 🎯 Features
+## Features
 
-### 📄 Three Main Pages
+### Three Main Pages
 1. **Home** - Complete overview with all sections
 2. **Our Story** - Detailed founder information and company mission
 3. **Services** - Full service details and contact form
 
-### 🎨 Design Highlights
+### Design Highlights
 - Clean black and white color scheme
 - Responsive design (mobile, tablet, desktop)
 - Smooth animations and transitions
@@ -32,7 +32,7 @@ ZeroGap/
 - Interactive navigation with hamburger menu on mobile
 - Proper separation of concerns (HTML, CSS, JS)
 
-### 📦 Sections Included
+### Sections Included
 
 #### Home Page:
 - **Hero Section** - Mission & Vision statements
@@ -50,7 +50,7 @@ ZeroGap/
   - Consulting & Technical Advisory
 - **Contact Form** - Direct email integration
 
-## 🚀 How to Use
+## How to Use
 
 ### Option 1: Open Directly
 Simply double-click `index.html` to open in your default browser.
@@ -71,31 +71,31 @@ npx http-server -p 8100
 
 Then visit `http://localhost:8100` in your browser.
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - **Desktop**: 769px and above
 - **Tablet**: 481px - 768px
 - **Mobile**: 480px and below
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5** - Semantic markup
 - **CSS3** - Grid, Flexbox, Animations
 - **Vanilla JavaScript** - No dependencies or frameworks
 
-## ✨ Code Quality
+## Code Quality
 
-✅ **Proper separation of concerns** - HTML, CSS, JS in separate files  
-✅ **Maintainable** - Easy to find and edit code  
-✅ **Scalable** - Add new pages without duplicating code  
-✅ **Performance** - Browser can cache CSS and JS files  
-✅ **Clean structure** - Professional codebase organization  
+- **Proper separation of concerns** - HTML, CSS, JS in separate files
+- **Maintainable** - Easy to find and edit code
+- **Scalable** - Add new pages without duplicating code
+- **Performance** - Browser can cache CSS and JS files
+- **Clean structure** - Professional codebase organization
 
-## ✉️ Contact Form
+## Contact Form
 
 The contact form uses `mailto:` functionality to open the user's email client with pre-filled information. Email is sent to: `contact@zerogap.tech`
 
-## 🎯 Projects Featured
+## Projects Featured
 
 1. **Inzira** - Education & AI tutoring platform
 2. **FinTell** - Financial literacy & community platform
@@ -103,12 +103,12 @@ The contact form uses `mailto:` functionality to open the user's email client wi
 4. **Vecta** - Data intelligence and analytics tools
 5. **Email Agent** - AI-powered email automation
 
-## 👥 Founders
+## Founders
 
 - **Philbert Ndagijimana** (PN)
 - **Cyiza Christian** (CC)
 
-## 📝 Editing Guide
+## Editing Guide
 
 ### To modify styles:
 Edit `css/styles.css` - all colors, layouts, fonts, and responsive design
@@ -119,7 +119,7 @@ Edit `js/script.js` - all navigation, form handling, and interactions
 ### To modify content:
 Edit `index.html` - all text, sections, and structure
 
-## 📧 Contact
+## Contact
 
 **Email**: contact@zerogap.tech
 

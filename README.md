@@ -2,6 +2,8 @@
 
 A modern, professional website for ZeroGap - AI, Software, and Data solutions company.
 
+![ZeroGap Website Preview](preview.png)
+
 ## 📁 Project Structure
 
 ```

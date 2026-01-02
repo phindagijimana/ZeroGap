@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroGap: AI - Software - Data</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" onclick="showPage('home')" class="logo">ZeroGap</a>
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
+            <ul id="nav-menu">
+                <li><a href="#" onclick="showPage('home'); closeMenu();">Home</a></li>
+                <li><a href="#" onclick="showPage('our-story'); closeMenu();">Our Story</a></li>
+                <li><a href="#" onclick="showPage('services'); closeMenu();">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HOME PAGE -->
+    <div id="home" class="page active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>AI - Software - Data</h1>
+            
+            <div class="mission-vision-container">
+                <div class="mission-box">
+                    <h6>Our Mission</h6>
+                    <p>Closing the gap between ideas, data, and intelligent automation.</p>
+                </div>
+                <div class="vision-box">
+                    <h6>Our Vision</h6>
+                    <p>We envision a future where technology seamlessly empowers growth, efficiency, and limitless possibilities.</p>
+                </div>
+            </div>
+
+            <div class="hero-cta">
+                <a href="#" onclick="scrollToSection('what-we-do')" class="cta-button">What Do We Do?</a>
+            </div>
+        </section>
+
+        <!-- Quick Links Section -->
+        <div class="quick-links">
+            <div class="quick-links-grid">
+                <a href="#" onclick="scrollToSection('the-team')" class="quick-link">The Team</a>
+                <a href="#" onclick="scrollToSection('why-zerogap')" class="quick-link">Why ZeroGap?</a>
+                <a href="#" onclick="scrollToSection('projects')" class="quick-link">Our Projects</a>
+                <a href="#" onclick="showPage('services')" class="quick-link">Let's build something amazing!</a>
+            </div>
+        </div>
+
+        <!-- What We Do Section -->
+        <section id="what-we-do" class="what-we-do">
+            <div class="section-inner">
+                <h2>What Do We Do?</h2>
+                <p class="section-subtitle">We specialize in delivering scalable, high-performance solutions across multiple domains.</p>
+                
+                <div class="services-preview">
+                    <div class="service-preview-card">
+                        <h3>Software Development</h3>
+                    </div>
+                    <div class="service-preview-card">
+                        <h3>Data Strategy</h3>
+                    </div>
+                    <div class="service-preview-card">
+                        <h3>AI & Automation</h3>
+                    </div>
+                </div>
+
+                <div class="explore-services">
+                    <a href="#" onclick="showPage('services')" class="cta-button">Explore Our Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Section -->
+        <section id="why-zerogap" class="why-choose">
+            <div class="section-inner">
+                <h2>Why Choose ZeroGap?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h3>Innovation-Driven</h3>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Scalable & Secure Solutions</h3>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Client-Centered Approach</h3>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Fast & Reliable Delivery</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founders Section -->
+        <section id="the-team" class="founders">
+            <div class="section-inner">
+                <h2>Our Story: Innovation, Passion, and Purpose</h2>
+                <p class="founders-text">ZeroGap was founded by engineers with strong backgrounds in data engineering, AI systems, and real-world software delivery. Fueled by a passion for tackling complex challenges through technology, they set out to create something bigger than themselves: a company that empowers businesses and individuals worldwide. With diverse expertise and a relentless drive for innovation, they built ZeroGap on the foundation of tailored, high-impact solutions. But beyond the code and algorithms, one principle remains at the core of everything we do—<strong>our clients always come first</strong>. Your success fuels our mission, and together, we turn ideas into transformative, global solutions.</p>
+                
+                <div class="founders-grid">
+                    <div class="founder-card">
+                        <div class="founder-image">PN</div>
+                        <h3>Philbert Ndagijimana</h3>
+                    </div>
+                    <div class="founder-card">
+                        <div class="founder-image">CC</div>
+                        <h3>Cyiza Christian</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="section-inner">
+                <h2>Our Projects</h2>
+                <p class="section-subtitle">Explore our initiatives aimed at inspiring innovation.</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Inzira</h3>
+                        <p>Education & AI tutoring platform designed to personalize learning experiences and provide intelligent educational support.</p>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>FinTell</h3>
+                        <p>Financial literacy & community platform empowering users with knowledge and tools for better financial decision-making.</p>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>NeuroInsight</h3>
+                        <p>Medical & neuroimaging analytics platform leveraging advanced data analysis for better healthcare outcomes.</p>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Vecta</h3>
+                        <p>Data intelligence and analytics tools that transform raw data into actionable business insights.</p>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Email Agent</h3>
+                        <p>AI-powered email automation assistant that streamlines communication workflows and enhances productivity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p><strong>Connect with us:</strong></p>
+            <p>contact@zerogap.tech</p>
+            <p style="margin-top: 1rem;">© 2025 ZeroGap. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- OUR STORY PAGE -->
+    <div id="our-story" class="page">
+        <section class="founders">
+            <div class="section-inner">
+                <h2>Our Story: Innovation, Passion, and Purpose</h2>
+                <p class="founders-text">ZeroGap was founded by engineers with strong backgrounds in data engineering, AI systems, and real-world software delivery. Fueled by a passion for tackling complex challenges through technology, they set out to create something bigger than themselves: a company that empowers businesses and individuals worldwide.</p>
+                <p class="founders-text">With diverse expertise and a relentless drive for innovation, they built ZeroGap on the foundation of tailored, high-impact solutions. But beyond the code and algorithms, one principle remains at the core of everything we do—<strong>our clients always come first</strong>. Your success fuels our mission, and together, we turn ideas into transformative, global solutions.</p>
+                
+                <h2 style="margin-top: 3rem;">Founders:</h2>
+                <div class="founders-grid">
+                    <div class="founder-card">
+                        <div class="founder-image">PN</div>
+                        <h3>Philbert Ndagijimana</h3>
+                    </div>
+                    <div class="founder-card">
+                        <div class="founder-image">CC</div>
+                        <h3>Cyiza Christian</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p><strong>Connect with us:</strong></p>
+            <p>contact@zerogap.tech</p>
+            <p style="margin-top: 1rem;">© 2025 ZeroGap. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- SERVICES PAGE -->
+    <div id="services" class="page">
+        <section class="services-full">
+            <div class="section-inner">
+                <h2>Our Services</h2>
+                <p class="section-subtitle">We specialize in delivering scalable, high-performance solutions across multiple domains.</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Software Development</h3>
+                        <p>Custom web & mobile apps, backend systems, APIs, dashboards, and MVPs with scalable architecture.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Data Strategy</h3>
+                        <p>Scalable data models designed for AI, automation, and analytics. Reduce technical debt from start.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Automation & AI Enablement</h3>
+                        <p>Workflow automation, AI-assisted tools, intelligent agents and seamless system integrations.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Consulting & Technical Advisory</h3>
+                        <p>Architecture review, AI-readiness assessment, long-term technical planning, and technology stack recommendations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="section-inner">
+                <h2>Let's Build Something Amazing!</h2>
+                <div class="contact-container">
+                    <form class="contact-form" onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+
+                    <div class="email-display">
+                        <p>Connect with us:</p>
+                        <a href="mailto:contact@zerogap.tech">contact@zerogap.tech</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p><strong>Connect with us:</strong></p>
+            <p>contact@zerogap.tech</p>
+            <p style="margin-top: 1rem;">© 2025 ZeroGap. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

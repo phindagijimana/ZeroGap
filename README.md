@@ -1,125 +1,42 @@
-# ZeroGap Website
+# ZeroGap
 
-A modern, professional website for ZeroGap - AI, Software, and Data solutions company.
+AI, Software, and Data solutions company.
 
 ![ZeroGap Website Preview](preview.png)
 
-## Project Structure
+## Live Website
 
-```
-ZeroGap/
-├── index.html              # Main HTML file (clean structure)
-├── css/
-│   └── styles.css          # All stylesheets
-├── js/
-│   └── script.js           # All JavaScript functionality
-├── README.md               # Documentation
-└── ZeroGap Website.docx    # Original requirements
-```
+[https://phindagijimana.github.io/ZeroGap/](https://phindagijimana.github.io/ZeroGap/)
 
-## Features
+## Services
 
-### Three Main Pages
-1. **Home** - Complete overview with all sections
-2. **Our Story** - Detailed founder information and company mission
-3. **Services** - Full service details and contact form
+- Software Development
+- Data Strategy
+- Automation & AI Enablement
+- Consulting & Technical Advisory
 
-### Design Highlights
-- Clean black and white color scheme
-- Responsive design (mobile, tablet, desktop)
-- Smooth animations and transitions
-- Modern typography using Poppins font
-- Interactive navigation with hamburger menu on mobile
-- Proper separation of concerns (HTML, CSS, JS)
+## Projects
 
-### Sections Included
-
-#### Home Page:
-- **Hero Section** - Mission & Vision statements
-- **Quick Links Grid** - Easy navigation to key sections
-- **What We Do** - Services preview
-- **Why Choose ZeroGap** - Key differentiators
-- **Founders** - Team introduction
-- **Projects** - Portfolio showcase (Inzira Platform, Inzira Labs, FinTell, NeuroInsight, Vecta, Email Agent)
-
-#### Services Page:
-- **Full Service Details**:
-  - Software Development
-  - Data Strategy
-  - Automation & AI Enablement
-  - Consulting & Technical Advisory
-- **Contact Form** - Direct email integration
-
-## Visit ZeroGap
-
-**Live Website:** [https://phindagijimana.github.io/ZeroGap/](https://phindagijimana.github.io/ZeroGap/)
-
-Visit the live website to explore ZeroGap's AI, Software, and Data solutions.
-
-## Responsive Breakpoints
-
-- **Desktop**: 769px and above
-- **Tablet**: 481px - 768px
-- **Mobile**: 480px and below
-
-## Technologies Used
-
-- **HTML5** - Semantic markup
-- **CSS3** - Grid, Flexbox, Animations
-- **Vanilla JavaScript** - No dependencies or frameworks
-
-## Code Quality
-
-- **Proper separation of concerns** - HTML, CSS, JS in separate files
-- **Maintainable** - Easy to find and edit code
-- **Scalable** - Add new pages without duplicating code
-- **Performance** - Browser can cache CSS and JS files
-- **Clean structure** - Professional codebase organization
-
-## Contact Form
-
-The contact form uses `mailto:` functionality to open the user's email client with pre-filled information. Email is sent to: `contact@zerogap.tech`
-
-## Projects Featured
-
-1. **Inzira Platform** - Education & AI tutoring platform
-2. **Inzira Labs** - Research translation space bridging research findings and user products
-3. **FinTell** - Financial literacy & community platform
-4. **NeuroInsight** - Medical & neuroimaging analytics
-5. **Vecta** - Data intelligence and analytics tools
-6. **Email Agent** - AI-powered email automation
+- **Inzira Platform** - Education & AI tutoring
+- **Inzira Labs** - Research translation
+- **FinTell** - Financial literacy platform
+- **NeuroInsight** - Medical analytics
+- **Vecta** - Data intelligence tools
+- **Email Agent** - AI email automation
 
 ## Founders
 
-- **Philbert Ndagijimana** (PN)
-- **Cyiza Christian** (CC)
-
-## For Developers
-
-This repository contains the source code for the ZeroGap website. To modify the website:
-
-### Code Structure:
-- **Styles**: `css/styles.css` - colors, layouts, fonts, responsive design
-- **Functionality**: `js/script.js` - navigation, forms, interactions
-- **Content**: `index.html` - text, sections, structure
-
-### Local Development:
-```bash
-# Start local server
-python3 -m http.server 8100
-# Visit: http://localhost:8100
-```
+- Philbert Ndagijimana (PN)
+- Cyiza Christian (CC)
 
 ## Contact
 
-**Email**: contact@zerogap.tech
+Email: contact@zerogap.tech
 
 ---
 
-## License & Copyright
+## License
 
-This project is proprietary and protected by copyright. See [LICENSE](LICENSE) for terms of use.
+This project is proprietary. See [LICENSE](LICENSE) for terms.
 
-**© 2025 ZeroGap. All rights reserved.**
-
-Unauthorized copying, modification, or distribution is prohibited.
+© 2025 ZeroGap. All rights reserved.

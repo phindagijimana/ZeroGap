@@ -50,7 +50,7 @@ ZeroGap/
   - Consulting & Technical Advisory
 - **Contact Form** - Direct email integration
 
-## 🌐 Visit ZeroGap
+## Visit ZeroGap
 
 **Live Website:** [https://phindagijimana.github.io/ZeroGap/](https://phindagijimana.github.io/ZeroGap/)
 
@@ -94,7 +94,7 @@ The contact form uses `mailto:` functionality to open the user's email client wi
 - **Philbert Ndagijimana** (PN)
 - **Cyiza Christian** (CC)
 
-## 🚀 For Developers
+## For Developers
 
 This repository contains the source code for the ZeroGap website. To modify the website:
 

@@ -116,4 +116,10 @@ python3 -m http.server 8100
 
 ---
 
-© 2025 ZeroGap. All rights reserved.
+## License & Copyright
+
+This project is proprietary and protected by copyright. See [LICENSE](LICENSE) for terms of use.
+
+**© 2025 ZeroGap. All rights reserved.**
+
+Unauthorized copying, modification, or distribution is prohibited.

@@ -50,26 +50,11 @@ ZeroGap/
   - Consulting & Technical Advisory
 - **Contact Form** - Direct email integration
 
-## How to Use
+## 🌐 Visit ZeroGap
 
-### Option 1: Open Directly
-Simply double-click `index.html` to open in your default browser.
+**Live Website:** [https://phindagijimana.github.io/ZeroGap/](https://phindagijimana.github.io/ZeroGap/)
 
-### Option 2: Use a Local Server (Recommended)
-For better performance and testing:
-
-```bash
-# Using Python 3
-python3 -m http.server 8100
-
-# Using Python 2
-python -m SimpleHTTPServer 8100
-
-# Using Node.js (http-server)
-npx http-server -p 8100
-```
-
-Then visit `http://localhost:8100` in your browser.
+Visit the live website to explore ZeroGap's AI, Software, and Data solutions.
 
 ## Responsive Breakpoints
 
@@ -109,25 +94,26 @@ The contact form uses `mailto:` functionality to open the user's email client wi
 - **Philbert Ndagijimana** (PN)
 - **Cyiza Christian** (CC)
 
-## Editing Guide
+## 🚀 For Developers
 
-### To modify styles:
-Edit `css/styles.css` - all colors, layouts, fonts, and responsive design
+This repository contains the source code for the ZeroGap website. To modify the website:
 
-### To modify functionality:
-Edit `js/script.js` - all navigation, form handling, and interactions
+### Code Structure:
+- **Styles**: `css/styles.css` - colors, layouts, fonts, responsive design
+- **Functionality**: `js/script.js` - navigation, forms, interactions
+- **Content**: `index.html` - text, sections, structure
 
-### To modify content:
-Edit `index.html` - all text, sections, and structure
+### Local Development:
+```bash
+# Start local server
+python3 -m http.server 8100
+# Visit: http://localhost:8100
+```
 
 ## Contact
 
 **Email**: contact@zerogap.tech
 
 ---
-
-## 🌐 Visit ZeroGap
-
-**Live Website:** [https://phindagijimana.github.io/ZeroGap/](https://phindagijimana.github.io/ZeroGap/)
 
 © 2025 ZeroGap. All rights reserved.

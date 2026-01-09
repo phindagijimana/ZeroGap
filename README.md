@@ -126,4 +126,8 @@ Edit `index.html` - all text, sections, and structure
 
 ---
 
+## 🌐 Visit ZeroGap
+
+**Live Website:** [https://phindagijimana.github.io/ZeroGap/](https://phindagijimana.github.io/ZeroGap/)
+
 © 2025 ZeroGap. All rights reserved.

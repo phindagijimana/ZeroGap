@@ -40,7 +40,7 @@ ZeroGap/
 - **What We Do** - Services preview
 - **Why Choose ZeroGap** - Key differentiators
 - **Founders** - Team introduction
-- **Projects** - Portfolio showcase (Inzira, FinTell, NeuroInsight, Vecta, Email Agent)
+- **Projects** - Portfolio showcase (Inzira Platform, Inzira Labs, FinTell, NeuroInsight, Vecta, Email Agent)
 
 #### Services Page:
 - **Full Service Details**:
@@ -97,11 +97,12 @@ The contact form uses `mailto:` functionality to open the user's email client wi
 
 ## Projects Featured
 
-1. **Inzira** - Education & AI tutoring platform
-2. **FinTell** - Financial literacy & community platform
-3. **NeuroInsight** - Medical & neuroimaging analytics
-4. **Vecta** - Data intelligence and analytics tools
-5. **Email Agent** - AI-powered email automation
+1. **Inzira Platform** - Education & AI tutoring platform
+2. **Inzira Labs** - Research translation space bridging research findings and user products
+3. **FinTell** - Financial literacy & community platform
+4. **NeuroInsight** - Medical & neuroimaging analytics
+5. **Vecta** - Data intelligence and analytics tools
+6. **Email Agent** - AI-powered email automation
 
 ## Founders
 

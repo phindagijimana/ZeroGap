@@ -20,6 +20,7 @@ AI, Software, and Data solutions company.
 - **Inzira Platform** - Education & AI tutoring
 - **Inzira Labs** - Research translation
 - **FinTell** - Financial literacy platform
+- **Soko** - Agricultural marketplace (Rwanda & East Africa)
 - **Email Agent** - AI email automation
 
 ## Founders

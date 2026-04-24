@@ -20,8 +20,6 @@ AI, Software, and Data solutions company.
 - **Inzira Platform** - Education & AI tutoring
 - **Inzira Labs** - Research translation
 - **FinTell** - Financial literacy platform
-- **NeuroInsight** - Medical analytics
-- **Vecta** - Data intelligence tools
 - **Email Agent** - AI email automation
 
 ## Founders

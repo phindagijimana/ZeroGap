@@ -13,3 +13,15 @@ Thumbs.db
 # Logs
 *.log
 
+# Video build intermediates (regenerable via video/build.py).
+# The final rendered video (video/output/what-is-physics.mp4) is kept.
+video/output/media/
+video/output/audio/
+video/output/*.wav
+video/output/audio_list.txt
+video/output/frame_*.png
+
+
+# Python
+__pycache__/
+*.pyc

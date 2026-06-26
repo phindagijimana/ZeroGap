@@ -8,8 +8,17 @@
 	# paths fall back to index.html rather than 404.
 	try_files {path} /index.html
 
+	# Security headers (defense-in-depth for a static site).
 	header {
-		# Long cache for static assets; index.html stays revalidated.
-		Cache-Control "public, max-age=3600"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		-Server
 	}
+
+	# Long cache for fingerprintable static assets; HTML stays revalidated.
+	@assets path /css/* /js/* /favicon.svg
+	header @assets Cache-Control "public, max-age=31536000, immutable"
+	header Cache-Control "no-cache"
 }

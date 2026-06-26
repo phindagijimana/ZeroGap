@@ -1,0 +1,15 @@
+# Railway serves the site through Caddy on the injected $PORT.
+:{$PORT:80} {
+	root * /srv
+	file_server
+	encode gzip
+
+	# SPA-style routing: client toggles "pages" via JS, so unknown
+	# paths fall back to index.html rather than 404.
+	try_files {path} /index.html
+
+	header {
+		# Long cache for static assets; index.html stays revalidated.
+		Cache-Control "public, max-age=3600"
+	}
+}

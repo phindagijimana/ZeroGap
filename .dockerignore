@@ -1,0 +1,8 @@
+.git
+.github
+*.docx
+*.doc
+*.png
+README.md
+LICENSE
+.DS_Store
